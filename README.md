@@ -50,7 +50,8 @@ About to write to F:\jsonserver\package.json:
   "license": "ISC"
 }
 
-Is this OK? (yes) yes ```
+Is this OK? (yes) yes
+```
 
 Install the json-server package
 
