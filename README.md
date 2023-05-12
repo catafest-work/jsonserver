@@ -93,8 +93,8 @@ I can change the URL of this server to perform these tasks:
 
 I can test with postman tool the json response:
 
-[Postman json send](postman_json_001.bmp)
+![Postman json send](postman_json_001.bmp)
 
 I can delete from json with postman tool:
 
-[Postman json delete](postman_json_002.bmp)
+![Postman json delete](postman_json_002.bmp)
