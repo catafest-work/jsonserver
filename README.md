@@ -60,7 +60,7 @@ jsonserver>npm --save json-server
 create a json file db.json
 
 run the server with the following command:
-
+`
 ```
 
 jsonserver>npm run json:server
@@ -85,6 +85,7 @@ jsonserver>npm run json:server
   Watching...
 
 ```
+`
 
 I can change the URL of this server to perform these tasks:
  - get a single company
