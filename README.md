@@ -6,7 +6,8 @@ mkdir jsonserver
 
 create the nodejs server project 
 
-```jsonserver>npm init
+```
+jsonserver>npm init
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -61,7 +62,7 @@ create a json file db.json
 run the server with the following command:
 
 ```
-`
+
 jsonserver>npm run json:server
 
 > jsonserver@1.0.0 json:server
@@ -82,7 +83,7 @@ jsonserver>npm run json:server
 
   Type s + enter at any time to create a snapshot of the database
   Watching...
-`
+
 ```
 
 I can change the URL of this server to perform these tasks:
