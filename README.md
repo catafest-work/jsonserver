@@ -54,17 +54,18 @@ Is this OK? (yes) yes ```
 Install the json-server package
 
 ```
+
 jsonserver>npm --save json-server
+
 ```
+
 create a json file db.json
 
-run the server with the following command
-```
-jsonserver>npm run json:server
+run the server with the following command: 
 
+jsonserver>npm run json:server
 > jsonserver@1.0.0 json:server
 > json-server --watch db.json
-
 
   \{^_^}/ hi!
 
@@ -80,8 +81,8 @@ jsonserver>npm run json:server
 
   Type s + enter at any time to create a snapshot of the database
   Watching...
-```
 
+```
 I can change the URL of this server to perform these tasks:
  - get a single company
  - get a list of companies
