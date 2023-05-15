@@ -98,3 +98,20 @@ I can test with postman tool the json response:
 I can delete from json with postman tool:
 
 ![Postman json delete](postman_json_002.bmp)
+## Testing process and server response
+
+I create a index.js file for testing windows commands and I tested with 'dir' command.
+
+For server responses I created this file named : server-request.js
+
+You can see the server response online on this page : http://localhost:3000 and http://localhost:3000/companies
+
+## Testing performance for server-json and db.json
+
+All tests javascripts names will start with test
+
+I used a template called EJS known as embedded JavaScript to display as a web page.
+
+You can see online on this URL: http://localhost:3001
+
+![performance server json](performance_ejs_template.bmp)

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Performanță server JSON</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Performanță server JSON</h1>
+    <table>
+      <tr>
+        <th>Numărul cererilor</th>
+        <th>Durata totală (ms)</th>
+        <th>Durata medie (ms)</th>
+      </tr>
+      <% for (let i = 0; i < performances.length; i++) { %>
+        <tr>
+          <td><%= performances[i].numRequests %></td>
+          <td><%= performances[i].totalDuration %></td>
+          <td><%= performances[i].averageDuration %></td>
+        </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
