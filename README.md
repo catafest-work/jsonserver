@@ -6,7 +6,8 @@ mkdir jsonserver
 
 create the nodejs server project 
 
-```jsonserver>npm init
+```
+jsonserver>npm init
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -49,7 +50,8 @@ About to write to F:\jsonserver\package.json:
   "license": "ISC"
 }
 
-Is this OK? (yes) yes ```
+Is this OK? (yes) yes
+```
 
 Install the json-server package
 
@@ -58,7 +60,8 @@ jsonserver>npm --save json-server
 ```
 create a json file db.json
 
-run the server with the following command
+run the server with the following command:
+
 ```
 jsonserver>npm run json:server
 
